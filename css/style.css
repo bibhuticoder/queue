@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+}
+
+.output {
+    width: 95%;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 2px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#screen {
+    width: auto;
+    height: auto;
+    border-style: none;
+    border-width: 1px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.box {
+    float: left;
+    min-width: 40px;
+    text-align: center;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 1px;
+}
+
+.box-normal {
+    background-color: white;
+}
+
+.box-filled {
+    background-color: darkseagreen;
+    color: white;
+}
+
+.box-done {
+    background-color: salmon;
+}
+
+.box-rear {
+    border-top-width: 5px;
+    border-top-color: darkred;
+    border-bottom-width: 5px;
+    border-bottom-color: darkred;
+}
+
+.box-front {
+    border-top-width: 5px;
+    border-top-color: blue;
+    border-bottom-width: 5px;
+    border-bottom-color: blue;
+}
+
+#rear {
+    color: darkred;
+    font-weight: bolder;
+}
+
+#front {
+    color: blue;
+    font-weight: bolder;
+}
+
+.form-control {
+    margin-right: -10px;
+    width: 100px !important;
+    float: left;
+}
+
+.btn {
+    float: left;
+    outline: none;
+}
+
+#btnDequeue {
+    float: none;
+}
+
+.controls {
+    margin: 0 auto;
+    border-style: none;
+    width: 200px;
+    ;
+}
